@@ -118,7 +118,7 @@ ros2 run master_slave_map omni_diana_pose  #master_slave mapping
 
 ###### Tips:
 
-Touchx should be fixed to the initial pose when starting this node, because the initial pose of the manipulator needs to be mapped with Touchx
+Touchx should be fixed to the initial pose when starting this node, because the initial pose of the manipulator needs to be mapped with Touch
 
 
 
@@ -129,8 +129,8 @@ Create a new terminal:
 ```bash
 cd Force_Feedback_Teleoperation
 source install/setup.bash
-ros2 run diana_humble TouchxPose  #The manipulator moves to the preset position
-ros2 run diana_humble touchx_lifecycle_node  #Start lifecycle node
+ros2 run diana_humble TouchPose  #The manipulator moves to the preset position
+ros2 run diana_humble touch_lifecycle_node  #Start lifecycle node
 ```
 
 
