@@ -113,7 +113,8 @@ ros2 run diana_humble touch_lifecycle_node
 
 ###### Tips:
 
-机械臂初始位置```bash
+机械臂初始位置
+```bash
 double joint[7] = {-0.01383, 0.532705, 0.010528, 2.09436, -0.0228301, -0.490275, 1.57379 };
 ```
 
