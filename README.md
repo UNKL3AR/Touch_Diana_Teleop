@@ -58,6 +58,7 @@ colcon build
 
 #### 串口权限
 老版本Touchx以及USB版力传感器
+
 创建终端:
 
 ```bash
@@ -112,9 +113,7 @@ ros2 run diana_humble touch_lifecycle_node
 
 ###### Tips:
 
-```bash
-ros2 run diana_humble TouchPose 
-```机械臂到达初始位置```bash
+机械臂初始位置```bash
 double joint[7] = {-0.01383, 0.532705, 0.010528, 2.09436, -0.0228301, -0.490275, 1.57379 };
 ```
 
