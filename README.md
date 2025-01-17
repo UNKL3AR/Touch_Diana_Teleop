@@ -15,6 +15,8 @@
 linux: ubuntu22.04
 
 ROS2: humble
+![image](https://github.com/user-attachments/assets/7efb811f-75ba-4c12-8ce3-06f67d9494a4)
+
 
 OpenHaptics: 3.4.0
 
