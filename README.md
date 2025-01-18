@@ -28,9 +28,20 @@ OpenHaptics: 3.4.0
 
 机械臂控制包
 
-#### srifts_tcp: 
+机械臂IP地址 
+```
+192.168.0.110
+```
+
+#### srifts(串口)/srifts_tcp（TCP/IP）: 
 
 力传感器驱动及力数据处理包
+
+力传感器采集卡IP地址
+```
+192.168.0.108
+```
+
 
 #### master_slave_map:
 

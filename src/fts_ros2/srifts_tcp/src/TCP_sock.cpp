@@ -100,28 +100,7 @@ bool TCPClient::readrecieveBuffer(Eigen::MatrixXd &pdBuffer){
             }
         }
     }
-    //////deal with data jam
-//    if(PointCounter>=4096)
-//    {
-//        while(PointCounter==4096)
-//        {
-//            PointCounter=recv(sock, buffer , 4096, 0);
-//            cout<<"processing"<<endl;
-//        }
-//    }
 
-    // cout << "PointCounter!"<<PointCounter << endl;
-    // Here I just read the latested data for processing
-    // if possible, I will add average filtering on the window
-    // maybe it would be safe....let's see
-    //for(int i=PointCounter-19;i<4096;i++)
-   // {
-
-    //}
-//    if(dataNo==-1)
-//    {
-//        cout<<"Error; data loss"<<endl;
-//    }
     return true;
 }
 

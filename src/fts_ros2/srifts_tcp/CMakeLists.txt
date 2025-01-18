@@ -26,9 +26,6 @@ include_directories(
 add_executable(fts ${FORCE_SENSOR_SRC}/srifts_tcp.cpp ${FORCE_SENSOR_SRC}/TCP_sock.cpp)
 ament_target_dependencies(fts rclcpp geometry_msgs std_msgs)
 
-add_executable(ttt ${FORCE_SENSOR_SRC}/srifts_tcpcopy.cpp ${FORCE_SENSOR_SRC}/TCP_sock.cpp)
-ament_target_dependencies(ttt rclcpp geometry_msgs std_msgs)
-
 add_executable(fd ${FORCE_SENSOR_SRC}/feedback.cpp)
 ament_target_dependencies(fd rclcpp geometry_msgs omni_msgs)
 
@@ -46,7 +43,6 @@ endif()
 
 install(TARGETS
   fts
-  ttt
   fd
 DESTINATION lib/${PROJECT_NAME})
 
