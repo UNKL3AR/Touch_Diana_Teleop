@@ -82,8 +82,11 @@ ros2 launch omni_common omni_state.launch.py
 ```
 
 ###### Tips:
+
 Touch不需要标定
+
 Touchx需要标定
+
 校准touchx需要上下左右前三个轴平行移动，直到终端显示校准成功的提示。
 
 
