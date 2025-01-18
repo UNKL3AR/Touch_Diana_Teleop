@@ -1,5 +1,8 @@
 # 带有力反馈的主从异构式遥操作系统
 
+![export](https://github.com/user-attachments/assets/1bd4af6c-f211-4db5-b5c6-7deeda2f09b7)
+
+
 ## 设备介绍
 
 主端设备采用Geomagic公司的六自由度商用力反馈手柄Touch（原omni phantom）
