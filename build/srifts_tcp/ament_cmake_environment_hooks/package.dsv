@@ -1,4 +1,0 @@
-source;share/srifts_tcp/local_setup.bash
-source;share/srifts_tcp/local_setup.dsv
-source;share/srifts_tcp/local_setup.sh
-source;share/srifts_tcp/local_setup.zsh

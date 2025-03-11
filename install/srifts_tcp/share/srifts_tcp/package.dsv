@@ -1,8 +1,0 @@
-source;share/srifts_tcp/hook/cmake_prefix_path.ps1
-source;share/srifts_tcp/hook/cmake_prefix_path.dsv
-source;share/srifts_tcp/hook/cmake_prefix_path.sh
-source;share/srifts_tcp/local_setup.bash
-source;share/srifts_tcp/local_setup.dsv
-source;share/srifts_tcp/local_setup.ps1
-source;share/srifts_tcp/local_setup.sh
-source;share/srifts_tcp/local_setup.zsh

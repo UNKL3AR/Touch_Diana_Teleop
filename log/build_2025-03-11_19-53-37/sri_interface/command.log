@@ -1,4 +1,0 @@
-Invoking command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface -- -j16 -l16
-Invoked command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface -- -j16 -l16
-Invoking command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface
-Invoked command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/sri_interface

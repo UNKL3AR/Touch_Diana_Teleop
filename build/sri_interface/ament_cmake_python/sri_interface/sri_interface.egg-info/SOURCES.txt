@@ -1,9 +1,0 @@
-setup.py
-sri_interface/__init__.py
-sri_interface.egg-info/PKG-INFO
-sri_interface.egg-info/SOURCES.txt
-sri_interface.egg-info/dependency_links.txt
-sri_interface.egg-info/top_level.txt
-sri_interface/msg/__init__.py
-sri_interface/msg/_omni_feedback.py
-sri_interface/msg/_six_axis_fts.py
