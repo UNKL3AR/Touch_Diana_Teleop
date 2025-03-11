@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c066464c246f66e60944.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "srifts_tcp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fd-61b27c058ba2e2897cd8.json",
+					"name" : "fd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fts-453dbd0e1b722041605b.json",
+					"name" : "fts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srifts_tcp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srifts_tcp_uninstall-619a0fa9abaf2016dcc8.json",
+					"name" : "srifts_tcp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-16c067c03835d8fed7bb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/srifts_tcp",
+		"source" : "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

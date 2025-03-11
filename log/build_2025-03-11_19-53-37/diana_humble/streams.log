@@ -1,0 +1,166 @@
+[0.038s] Invoking command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble -DCMAKE_INSTALL_PREFIX=/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble
+[0.234s] -- The C compiler identification is GNU 11.4.0
+[0.443s] -- The CXX compiler identification is GNU 11.4.0
+[0.455s] -- Detecting C compiler ABI info
+[0.616s] -- Detecting C compiler ABI info - done
+[0.624s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.624s] -- Detecting C compile features
+[0.624s] -- Detecting C compile features - done
+[0.629s] -- Detecting CXX compiler ABI info
+[0.796s] -- Detecting CXX compiler ABI info - done
+[0.806s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.806s] -- Detecting CXX compile features
+[0.808s] -- Detecting CXX compile features - done
+[0.813s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.183s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.367s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.440s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.450s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.469s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.616s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.622s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.813s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.864s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.931s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.949s] -- Looking for pthread.h
+[2.204s] -- Looking for pthread.h - found
+[2.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.416s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.417s] -- Found Threads: TRUE  
+[2.485s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.506s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.535s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[2.544s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.546s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.546s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.555s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.614s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.754s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.791s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.985s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.985s] -- Configured cppcheck include dirs: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/include
+[2.985s] -- Configured cppcheck exclude dirs and/or files: 
+[2.987s] -- Added test 'lint_cmake' to check CMake code style
+[2.991s] -- Added test 'uncrustify' to check C / C++ code style
+[2.992s] -- Configured uncrustify additional arguments: 
+[2.993s] -- Added test 'xmllint' to check XML markup files
+[2.995s] -- Configuring done
+[3.036s] -- Generating done
+[3.047s] -- Build files have been written to: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble
+[3.089s] Invoked command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble -DCMAKE_INSTALL_PREFIX=/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble
+[3.093s] Invoking command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble -- -j16 -l16
+[3.242s] [ 12%] [32mBuilding CXX object CMakeFiles/changeip.dir/src/reset/change_ip.cpp.o[0m
+[3.243s] [ 18%] [32mBuilding CXX object CMakeFiles/state.dir/src/reset/getstate.cpp.o[0m
+[3.243s] [ 18%] [32mBuilding CXX object CMakeFiles/SquarePath.dir/src/reset/impedance_c.cpp.o[0m
+[3.243s] [ 25%] [32mBuilding CXX object CMakeFiles/test_med.dir/src/dianamed_ctrl.cpp.o[0m
+[3.243s] [ 31%] [32mBuilding CXX object CMakeFiles/TouchxPose.dir/src/reset/initTouchxPose.cpp.o[0m
+[3.247s] [ 37%] [32mBuilding CXX object CMakeFiles/leave.dir/src/reset/leave_pos.cpp.o[0m
+[3.248s] [ 43%] [32mBuilding CXX object CMakeFiles/test_med.dir/src/test/test.cpp.o[0m
+[3.273s] [ 50%] [32mBuilding CXX object CMakeFiles/touchx_lifecycle_node.dir/src/touchx_lifecycle.cpp.o[0m
+[3.278s] [ 56%] [32mBuilding CXX object CMakeFiles/touchx_lifecycle_node.dir/src/dianamed_ctrl.cpp.o[0m
+[4.018s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/initTouchxPose.cpp:[m[K In function ‘[01m[Kvoid logRobotState(StrRobotStateInfo*)[m[K’:
+[4.018s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/initTouchxPose.cpp:10:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpinfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.018s]    10 | void logRobotState([01;35m[KStrRobotStateInfo *pinfo[m[K){}
+[4.018s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.023s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/getstate.cpp:[m[K In function ‘[01m[Kvoid logRobotState(StrRobotStateInfo*)[m[K’:
+[4.026s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/getstate.cpp:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpinfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.026s]     9 | void logRobotState([01;35m[KStrRobotStateInfo *pinfo[m[K){}
+[4.026s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.043s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/impedance_c.cpp:[m[K In function ‘[01m[Kvoid logRobotState(StrRobotStateInfo*)[m[K’:
+[4.044s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/impedance_c.cpp:9:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpinfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.044s]     9 | void logRobotState([01;35m[KStrRobotStateInfo *pinfo[m[K){}
+[4.044s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.050s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/leave_pos.cpp:[m[K In function ‘[01m[Kvoid logRobotState(StrRobotStateInfo*)[m[K’:
+[4.050s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/reset/leave_pos.cpp:10:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpinfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.051s]    10 | void logRobotState([01;35m[KStrRobotStateInfo *pinfo[m[K){}
+[4.051s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.310s] [ 62%] [32m[1mLinking CXX executable TouchxPose[0m
+[4.312s] [ 68%] [32m[1mLinking CXX executable SquarePath[0m
+[4.317s] [ 75%] [32m[1mLinking CXX executable state[0m
+[4.330s] [ 81%] [32m[1mLinking CXX executable leave[0m
+[4.387s] [ 87%] [32m[1mLinking CXX executable changeip[0m
+[5.055s] [ 87%] Built target state
+[5.106s] [ 87%] Built target SquarePath
+[5.109s] [ 87%] Built target TouchxPose
+[5.124s] [ 87%] Built target leave
+[5.163s] [ 87%] Built target changeip
+[7.803s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/dianamed_ctrl.cpp:[m[K In member function ‘[01m[Kvoid DianaMedBase::Switch_mode(_Mode)[m[K’:
+[7.803s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/dianamed_ctrl.cpp:105:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.803s]   105 |     int [01;35m[Kret[m[K = changeControlMode(Mode, DianaMedIpAddress);
+[7.803s]       |         [01;35m[K^~~[m[K
+[7.903s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/dianamed_ctrl.cpp:[m[K In member function ‘[01m[Kvoid DianaMedBase::Switch_mode(_Mode)[m[K’:
+[7.904s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/dianamed_ctrl.cpp:105:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.904s]   105 |     int [01;35m[Kret[m[K = changeControlMode(Mode, DianaMedIpAddress);
+[7.904s]       |         [01;35m[K^~~[m[K
+[9.043s] [ 93%] [32m[1mLinking CXX executable test_med[0m
+[9.588s] [ 93%] Built target test_med
+[12.200s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:[m[K In member function ‘[01m[Kvoid TouchXLifecycle::ControlLoop()[m[K’:
+[12.200s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:89:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[0][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.200s]    89 |                 [01;35m[Kdianamed_ctrl.joints[0][m[K,
+[12.200s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.200s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:89:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[0][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.200s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:90:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[1][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.201s]    90 |                 [01;35m[Kdianamed_ctrl.joints[1][m[K,
+[12.201s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.201s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:90:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[1][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.201s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:91:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[2][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.201s]    91 |                 [01;35m[Kdianamed_ctrl.joints[2][m[K,
+[12.201s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.201s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:91:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[2][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.201s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:92:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[3][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.201s]    92 |                 [01;35m[Kdianamed_ctrl.joints[3][m[K,
+[12.201s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.202s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:92:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[3][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.202s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:93:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[4][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.202s]    93 |                 [01;35m[Kdianamed_ctrl.joints[4][m[K,
+[12.202s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.202s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:93:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[4][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.202s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:94:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[5][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.202s]    94 |                 [01;35m[Kdianamed_ctrl.joints[5][m[K,
+[12.202s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.202s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:94:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[5][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.202s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:95:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[6][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.203s]    95 |                 [01;35m[Kdianamed_ctrl.joints[6][m[K
+[12.203s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[12.203s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:95:39:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((TouchXLifecycle*)this)->TouchXLifecycle::dianamed_ctrl.DianaMedBase::joints[6][m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[12.224s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:[m[K In function ‘[01m[Kvoid logRobotState(StrRobotStateInfo*)[m[K’:
+[12.224s] [01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble/src/touchx_lifecycle.cpp:232:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpinfo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[12.225s]   232 | void logRobotState([01;35m[KStrRobotStateInfo *pinfo[m[K){
+[12.225s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[24.903s] [100%] [32m[1mLinking CXX executable touchx_lifecycle_node[0m
+[27.489s] [100%] Built target touchx_lifecycle_node
+[27.522s] Invoked command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble -- -j16 -l16
+[27.526s] Invoking command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble
+[27.550s] -- Install configuration: ""
+[27.550s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/test_med
+[27.552s] -- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/test_med" to ""
+[27.552s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/leave
+[27.553s] -- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/leave" to ""
+[27.553s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/SquarePath
+[27.553s] -- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/SquarePath" to ""
+[27.553s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/changeip
+[27.553s] -- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/changeip" to ""
+[27.554s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/state
+[27.554s] -- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/state" to ""
+[27.554s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/TouchxPose
+[27.555s] -- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/TouchxPose" to ""
+[27.555s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/touchx_lifecycle_node
+[27.567s] -- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/lib/diana_humble/touchx_lifecycle_node" to ""
+[27.567s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/ament_index/resource_index/package_run_dependencies/diana_humble
+[27.568s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/ament_index/resource_index/parent_prefix_path/diana_humble
+[27.568s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/environment/ament_prefix_path.sh
+[27.568s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/environment/ament_prefix_path.dsv
+[27.568s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/environment/path.sh
+[27.568s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/environment/path.dsv
+[27.568s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/local_setup.bash
+[27.569s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/local_setup.sh
+[27.569s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/local_setup.zsh
+[27.570s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/local_setup.dsv
+[27.570s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/package.dsv
+[27.570s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/ament_index/resource_index/packages/diana_humble
+[27.570s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/cmake/diana_humbleConfig.cmake
+[27.570s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/cmake/diana_humbleConfig-version.cmake
+[27.570s] -- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/diana_humble/share/diana_humble/package.xml
+[27.578s] Invoked command in '/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble

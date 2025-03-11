@@ -1,9 +1,6 @@
 #include "diana_humble/base/dianamed_ctrl.hpp"
 #include "diana_humble/kdl/diana_kdl_model.hpp"
 
-using namespace KDL;
-
-//Constructor
 DianaMedBase::DianaMedBase(){
     DianaMedConnection();
     q_joints_states = std::make_shared<std::vector<double>>(7,0.0); //std::vector<double>{}
@@ -11,10 +8,16 @@ DianaMedBase::DianaMedBase(){
     
     chain = KDL::Diana();                                          //init robot_tree
     L(0)=1;L(1)=1;L(2)=1;L(3)=0.01;L(4)=0.01;L(5)=0.01;            //step of numeracal iksolver LMA
-    Piksolver = new KDL::ChainIkSolverPos_LMA(chain,L);
-    Pfksolver = new KDL::ChainFkSolverPos_recursive(chain);
-    Pjacsolver = new KDL::ChainJntToJacSolver(chain);
-    PikVsolver = new KDL::ChainIkSolverVel_pinv_givens(chain);
+
+    // Piksolver = new KDL::ChainIkSolverPos_LMA(chain,L);
+    // Pfksolver = new KDL::ChainFkSolverPos_recursive(chain);
+    // Pjacsolver = new KDL::ChainJntToJacSolver(chain);
+    // PikVsolver = new KDL::ChainIkSolverVel_pinv_givens(chain);
+
+    Piksolver = std::make_shared<KDL::ChainIkSolverPos_LMA>(chain,L);
+    Pfksolver = std::make_shared<KDL::ChainFkSolverPos_recursive>(chain);
+    Pjacsolver = std::make_shared<KDL::ChainJntToJacSolver>(chain);
+    PikVsolver = std::make_shared<KDL::ChainIkSolverVel_pinv_givens>(chain);
 
     NbOfJoints = chain.getNrOfJoints();
     q_init.resize(NbOfJoints);                                     //input joints for iksolver
@@ -24,8 +27,6 @@ DianaMedBase::DianaMedBase(){
     p_goal.M = KDL::Rotation::Identity();
     p_init.p = KDL::Vector::Zero();
     p_init.M = KDL::Rotation::Identity();
-
-
 }
 
 DianaMedBase::~DianaMedBase(){

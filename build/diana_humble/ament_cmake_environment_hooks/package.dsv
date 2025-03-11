@@ -1,0 +1,4 @@
+source;share/diana_humble/local_setup.bash
+source;share/diana_humble/local_setup.dsv
+source;share/diana_humble/local_setup.sh
+source;share/diana_humble/local_setup.zsh

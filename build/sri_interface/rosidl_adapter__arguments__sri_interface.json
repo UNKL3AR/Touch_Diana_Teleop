@@ -1,0 +1,7 @@
+{
+  "package_name": "sri_interface",
+  "non_idl_tuples": [
+    "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/interfaces/sri_interface:msg/SixAxisFTS.msg",
+    "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/interfaces/sri_interface:msg/OmniFeedback.msg"
+  ]
+}

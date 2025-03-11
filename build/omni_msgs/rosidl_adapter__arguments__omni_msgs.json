@@ -1,0 +1,8 @@
+{
+  "package_name": "omni_msgs",
+  "non_idl_tuples": [
+    "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/interfaces/omni_msgs:msg/OmniButtonEvent.msg",
+    "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/interfaces/omni_msgs:msg/OmniFeedback.msg",
+    "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/interfaces/omni_msgs:msg/OmniState.msg"
+  ]
+}

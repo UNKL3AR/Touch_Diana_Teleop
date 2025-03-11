@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-881213b8faf57485cfc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "master_slave_map",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "master_slave_map_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-master_slave_map_uninstall-b67bb740d53628c2276a.json",
+					"name" : "master_slave_map_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omni_diana_pose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omni_diana_pose-9d020843da7632e6d128.json",
+					"name" : "omni_diana_pose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-47a237e8c0837de23372.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/master_slave_map",
+		"source" : "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/touch_ros2/master_slave_map"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

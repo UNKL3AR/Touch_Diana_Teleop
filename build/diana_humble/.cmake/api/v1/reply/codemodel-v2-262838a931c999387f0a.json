@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-039be43da232adcbd5fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "diana_humble",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SquarePath::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SquarePath-c6819680b8c5d22fc91c.json",
+					"name" : "SquarePath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TouchxPose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TouchxPose-34f9dd396b58b8709b73.json",
+					"name" : "TouchxPose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "changeip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-changeip-163ec559f6fbdcd64fd5.json",
+					"name" : "changeip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diana_humble_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diana_humble_uninstall-f186515e57c224a7850b.json",
+					"name" : "diana_humble_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leave::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leave-f57453444aecd0f059fd.json",
+					"name" : "leave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-state-38d59cabbf8c1d46171a.json",
+					"name" : "state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_med::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_med-2b6a4606a958e9e808dd.json",
+					"name" : "test_med",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "touchx_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-touchx_lifecycle_node-42736a209ef2ec07efd7.json",
+					"name" : "touchx_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4ea6da5366ea235a21cc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/diana_humble",
+		"source" : "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/diana_humble"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

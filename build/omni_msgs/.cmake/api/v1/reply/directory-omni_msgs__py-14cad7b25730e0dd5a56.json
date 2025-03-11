@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "omni_msgs__py",
+		"source" : "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/omni_msgs/omni_msgs__py"
+	}
+}

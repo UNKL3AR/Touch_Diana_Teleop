@@ -51,8 +51,8 @@ public:
         msg->data = "Lifecycle node work !!!!";
 
         if (!pub_->is_activated()) {
-            // RCLCPP_INFO(
-            //     get_logger(), "Lifecycle publisher is currently inactive. Messages are not published.");
+            RCLCPP_INFO(
+                get_logger(), "Lifecycle publisher is currently inactive. Messages are not published.");
         } 
         else {
             Eigen::Quaterniond quaternion(robot_pose_.pose.orientation.w,

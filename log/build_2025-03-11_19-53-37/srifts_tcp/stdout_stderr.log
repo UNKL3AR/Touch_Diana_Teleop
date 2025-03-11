@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found omni_msgs: 0.0.0 (/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/omni_msgs/share/omni_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/include;/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/include/srifts_tcp
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/build/srifts_tcp
+[ 20%] [32mBuilding CXX object CMakeFiles/fts.dir/src/srifts_tcp.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/fts.dir/src/TCP_sock.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/fd.dir/src/feedback.cpp.o[0m
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/TCP_sock.cpp:[m[K In member function ‘[01m[Kbool TCPClient::setup(std::string, int)[m[K’:
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/TCP_sock.cpp:16:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kin_addr_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   16 |         if([01;35m[Kinet_addr(address.c_str()) == -1[m[K){
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/TCP_sock.cpp:[m[K In member function ‘[01m[Kstd::string TCPClient::receive(int)[m[K’:
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/TCP_sock.cpp:55:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   55 |         char [01;35m[Kbuffer[m[K[size];
+      |              [01;35m[K^~~~~~[m[K
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/TCP_sock.cpp:[m[K In member function ‘[01m[Kbool TCPClient::readrecieveBuffer(Eigen::MatrixXd&)[m[K’:
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/TCP_sock.cpp:83:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KdataNo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   83 |     int [01;35m[KdataNo[m[K=-1;
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/srifts_tcp.cpp:[m[K In function ‘[01m[Kvoid sig_exit(int)[m[K’:
+[01m[K/home/pc/US_Teleop_ws/Touch_Diana_Teleop/src/fts_ros2/srifts_tcp/src/srifts_tcp.cpp:20:19:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 | void sig_exit([01;35m[Kint s[m[K)
+      |               [01;35m[K~~~~^[m[K
+[ 80%] [32m[1mLinking CXX executable fts[0m
+[ 80%] Built target fts
+[100%] [32m[1mLinking CXX executable fd[0m
+[100%] Built target fd
+-- Install configuration: ""
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/lib/srifts_tcp/fts
+-- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/lib/srifts_tcp/fts" to ""
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/lib/srifts_tcp/fd
+-- Set runtime path of "/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/lib/srifts_tcp/fd" to ""
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/ament_index/resource_index/package_run_dependencies/srifts_tcp
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/ament_index/resource_index/parent_prefix_path/srifts_tcp
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/environment/ament_prefix_path.sh
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/environment/ament_prefix_path.dsv
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/environment/path.sh
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/environment/path.dsv
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/local_setup.bash
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/local_setup.sh
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/local_setup.zsh
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/local_setup.dsv
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/package.dsv
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/ament_index/resource_index/packages/srifts_tcp
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/cmake/srifts_tcpConfig.cmake
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/cmake/srifts_tcpConfig-version.cmake
+-- Installing: /home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/srifts_tcp/share/srifts_tcp/package.xml

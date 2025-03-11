@@ -56,10 +56,16 @@ public:
     std::unique_ptr<double[]> joint_data_; 
 
     // for KDL interface 
-    KDL::ChainIkSolverPos_LMA *Piksolver;
-    KDL::ChainIkSolverVel_pinv_givens *PikVsolver; // cartesian space v to joint space v
-    KDL::ChainFkSolverPos_recursive *Pfksolver;
-    KDL::ChainJntToJacSolver *Pjacsolver;
+    // KDL::ChainIkSolverPos_LMA *Piksolver;
+    // KDL::ChainIkSolverVel_pinv_givens *PikVsolver; // cartesian space v to joint space v
+    // KDL::ChainFkSolverPos_recursive *Pfksolver;
+    // KDL::ChainJntToJacSolver *Pjacsolver;
+    std::shared_ptr<KDL::ChainIkSolverPos_LMA> Piksolver;
+    std::shared_ptr<KDL::ChainIkSolverVel_pinv_givens> PikVsolver;
+    std::shared_ptr<KDL::ChainFkSolverPos_recursive> Pfksolver;
+    std::shared_ptr<KDL::ChainJntToJacSolver> Pjacsolver;
+
+
     KDL::JntArray q_init;
     KDL::JntArray q_goal;
     KDL::Frame p_init;

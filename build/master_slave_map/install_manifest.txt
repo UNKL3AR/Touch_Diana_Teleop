@@ -1,0 +1,16 @@
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/lib/master_slave_map/omni_diana_pose
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/ament_index/resource_index/package_run_dependencies/master_slave_map
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/ament_index/resource_index/parent_prefix_path/master_slave_map
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/environment/ament_prefix_path.sh
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/environment/ament_prefix_path.dsv
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/environment/path.sh
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/environment/path.dsv
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/local_setup.bash
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/local_setup.sh
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/local_setup.zsh
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/local_setup.dsv
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/package.dsv
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/ament_index/resource_index/packages/master_slave_map
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/cmake/master_slave_mapConfig.cmake
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/cmake/master_slave_mapConfig-version.cmake
+/home/pc/US_Teleop_ws/Touch_Diana_Teleop/install/master_slave_map/share/master_slave_map/package.xml

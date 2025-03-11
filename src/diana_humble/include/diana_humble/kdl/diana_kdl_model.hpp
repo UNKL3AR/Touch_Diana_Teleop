@@ -27,7 +27,6 @@ namespace KDL{
         double alpha5 = -M_PI_2;
         double alpha6 = -M_PI_2;
         double alpha7 = -M_PI_2;
-
         double theta6 = M_PI;
 
         diana.addSegment(Segment("base_link", Joint(Joint::None), 

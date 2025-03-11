@@ -1,0 +1,6 @@
+msg/OmniButtonEvent.idl
+msg/OmniButtonEvent.msg
+msg/OmniFeedback.idl
+msg/OmniFeedback.msg
+msg/OmniState.idl
+msg/OmniState.msg

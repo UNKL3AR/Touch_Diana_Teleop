@@ -1,0 +1,4 @@
+source;share/master_slave_map/local_setup.bash
+source;share/master_slave_map/local_setup.dsv
+source;share/master_slave_map/local_setup.sh
+source;share/master_slave_map/local_setup.zsh

@@ -1,0 +1,2 @@
+source;share/master_slave_map/environment/ament_prefix_path.sh
+source;share/master_slave_map/environment/path.sh

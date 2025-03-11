@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sri_interface/msg/SixAxisFTS.msg
+// generated code does not contain a copyright notice
+
+
+module sri_interface {
+  module msg {
+    struct SixAxisFTS {
+      float x_force;
+
+      float y_force;
+
+      float z_force;
+
+      float x_torque;
+
+      float y_torque;
+
+      float z_torque;
+
+      uint16 frame_number;
+
+      float sampling_time;
+    };
+  };
+};
