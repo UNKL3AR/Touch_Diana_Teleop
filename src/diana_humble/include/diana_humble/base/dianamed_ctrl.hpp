@@ -55,16 +55,10 @@ public:
     std::shared_ptr<std::vector<double>> q_joints_states;
     std::unique_ptr<double[]> joint_data_; 
 
-    // for KDL interface 
-    // KDL::ChainIkSolverPos_LMA *Piksolver;
-    // KDL::ChainIkSolverVel_pinv_givens *PikVsolver; // cartesian space v to joint space v
-    // KDL::ChainFkSolverPos_recursive *Pfksolver;
-    // KDL::ChainJntToJacSolver *Pjacsolver;
     std::shared_ptr<KDL::ChainIkSolverPos_LMA> Piksolver;
     std::shared_ptr<KDL::ChainIkSolverVel_pinv_givens> PikVsolver;
     std::shared_ptr<KDL::ChainFkSolverPos_recursive> Pfksolver;
     std::shared_ptr<KDL::ChainJntToJacSolver> Pjacsolver;
-
 
     KDL::JntArray q_init;
     KDL::JntArray q_goal;
@@ -72,19 +66,18 @@ public:
     KDL::Frame p_goal;
     KDL::Frame pose_current_goal;//  change pose for camera control
     Eigen::Matrix<double,6,1> L;
+    std::array<double,7> collision = {};
 
     DianaMedBase();
     ~DianaMedBase();
-
     //Diana initSrv function
-    // static void logRobotState(StrRobotStateInfo *pinfo);
     static void errorControl(int e);
     void DianaMedConnection();
     void Start();
     void Stop();
     void Switch_mode(_Mode Mode);
     void getTCPpose(double poses[6]);
-    void test(); //this function is for testing
+    void test();
     void wait_move();
 };
 
