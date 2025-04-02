@@ -50,6 +50,8 @@ target_link_libraries(changeip ${LIB_DIANA_HUMBLE})
 add_executable(state ${DIANA_HUMBLE_SRC}/reset/getstate.cpp)
 target_link_libraries(state ${LIB_DIANA_HUMBLE})
 
+add_executable(zs ${DIANA_HUMBLE_SRC}/reset/teach_zs.cpp)
+target_link_libraries(zs ${LIB_DIANA_HUMBLE})
 
 add_executable(test_med ${DIANA_HUMBLE_SRC}/test/test.cpp ${DIANAMED_CONTROL})
 ament_target_dependencies(test_med rclcpp geometry_msgs  orocos_kdl)
@@ -72,6 +74,7 @@ install(TARGETS
   SquarePath
   changeip
   state
+  zs
   TouchxPose
   touchx_lifecycle_node
 DESTINATION lib/${PROJECT_NAME})

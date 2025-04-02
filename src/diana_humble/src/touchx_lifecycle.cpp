@@ -51,8 +51,8 @@ public:
         msg->data = "Lifecycle node work !!!!";
 
         if (!pub_->is_activated()) {
-            RCLCPP_INFO(
-                get_logger(), "Lifecycle publisher is currently inactive. Messages are not published.");
+            // RCLCPP_INFO(
+            //     get_logger(), "Lifecycle publisher is currently inactive. Messages are not published.");
         } 
         else {
             Eigen::Quaterniond quaternion(robot_pose_.pose.orientation.w,
@@ -74,10 +74,17 @@ public:
                 std::cout << dianamed_ctrl.joints[i] << " ";
             }
             std::cout << std::endl;
-            // 极限状态下的参数
+
             // int ret = servoJ_ex(dianamed_ctrl.joints, 0.005, 0.025, 800, false, dianamed_ctrl.DianaMedIpAddress);
             int ret = servoJ_ex(dianamed_ctrl.joints, 0.01, 0.04, 500, false, dianamed_ctrl.DianaMedIpAddress);
-            // std::cout <<"servoJ state:(0/-1)"<<ret<<std::endl;
+            std::cout <<"servoJ state:(0/-1)"<<ret<<std::endl;
+            // joints_state.data = { dianamed_ctrl.joints[0],
+            //                       dianamed_ctrl.joints[1],
+            //                       dianamed_ctrl.joints[2],
+            //                       dianamed_ctrl.joints[3],
+            //                       dianamed_ctrl.joints[4],
+            //                       dianamed_ctrl.joints[5],
+            //                       dianamed_ctrl.joints[6]};
             joints_state.data = {
                 dianamed_ctrl.joints[0],
                 dianamed_ctrl.joints[1],
